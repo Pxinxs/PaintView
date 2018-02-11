@@ -1,4 +1,4 @@
-package com.tutorial.xyz.views
+package com.pxinxs.paintview.views
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -10,8 +10,8 @@ import android.util.AttributeSet
 import android.util.Log
 import android.view.MotionEvent
 import android.view.View
-import com.tutorial.xyz.CustomPaint
-import com.tutorial.xyz.R
+import com.pxinxs.paintview.CustomPaint
+import com.pxinxs.paintview.R
 
 /**
  *Created by AndroidDev on 03.01.2018.

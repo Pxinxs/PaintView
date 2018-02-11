@@ -5,7 +5,7 @@ apply plugin: 'kotlin-android-extensions'
 android {
     compileSdkVersion 26
     defaultConfig {
-        applicationId "com.tutorial.xyz"
+        applicationId "com.pxinxs.paintview"
         minSdkVersion 21
         targetSdkVersion 26
         versionCode 1

@@ -1,4 +1,4 @@
-package com.tutorial.xyz.utils
+package com.pxinxs.paintview.utils
 
 import android.content.Context
 import android.widget.Toast

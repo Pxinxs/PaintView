@@ -1,4 +1,4 @@
-package com.tutorial.xyz.utils
+package com.pxinxs.paintview.utils
 
 import android.Manifest
 import android.app.Activity
@@ -12,7 +12,7 @@ import android.support.v4.content.ContextCompat
  */
 class Permissions {
 
-    fun isCameraAndStoragePermissions(activity: Activity, WRITE_REQUEST: Int): Boolean {
+    fun isStoragePermissions(activity: Activity, WRITE_REQUEST: Int): Boolean {
         return if (Build.VERSION.SDK_INT > Build.VERSION_CODES.LOLLIPOP) {
             if (ContextCompat.checkSelfPermission(activity.applicationContext, Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
                 ActivityCompat.requestPermissions(activity, arrayOf(Manifest.permission.WRITE_EXTERNAL_STORAGE), WRITE_REQUEST)

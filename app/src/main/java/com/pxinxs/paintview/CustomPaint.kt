@@ -1,4 +1,4 @@
-package com.tutorial.xyz
+package com.pxinxs.paintview
 
 import android.graphics.Color
 import android.graphics.Paint

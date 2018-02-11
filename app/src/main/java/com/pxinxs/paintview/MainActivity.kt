@@ -1,4 +1,4 @@
-package com.tutorial.xyz
+package com.pxinxs.paintview
 
 import android.content.pm.PackageManager
 import android.graphics.Bitmap
@@ -13,10 +13,10 @@ import android.view.View
 import android.widget.SeekBar
 import com.flask.colorpicker.ColorPickerView
 import com.flask.colorpicker.builder.ColorPickerDialogBuilder
-import com.tutorial.xyz.utils.ImageFile
-import com.tutorial.xyz.utils.Permissions
-import com.tutorial.xyz.utils.toast
-import com.tutorial.xyz.views.PaintView
+import com.pxinxs.paintview.utils.ImageFile
+import com.pxinxs.paintview.utils.Permissions
+import com.pxinxs.paintview.utils.toast
+import com.pxinxs.paintview.views.PaintView
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.bottom_sheet.*
 
@@ -119,7 +119,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when (item.itemId) {
             R.id.nav_save -> {
-                if (Permissions().isCameraAndStoragePermissions(this, REQUEST_WRITE_CODE)) {
+                if (Permissions().isStoragePermissions(this, REQUEST_WRITE_CODE)) {
                     takeImage()
                 }
                 true

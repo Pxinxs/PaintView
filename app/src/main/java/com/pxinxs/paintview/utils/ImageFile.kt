@@ -1,4 +1,4 @@
-package com.tutorial.xyz.utils
+package com.pxinxs.paintview.utils
 
 import android.graphics.*
 import android.os.Environment
